@@ -1,0 +1,10 @@
+.two-columns__paragraph{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+    padding-bottom: 30px;
+  }
+  .two-columns__paragraph:nth-child(3){
+    padding-bottom: 0;
+  }

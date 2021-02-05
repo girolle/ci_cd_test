@@ -1,0 +1,35 @@
+.cover__image {
+    width: 430px;
+    height: 216px;
+    object-fit: cover;
+}
+
+
+@media (min-width: 375px) {
+    .cover__image {
+        width: 100%px;
+        height: 272px;
+    }
+}
+
+@media (min-width: 768px) {
+    .cover__image {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cover__image {
+        width: 100%;
+        max-width: 1184px;
+        height: 594px;
+    }
+}
+@media (min-width: 1280px) {
+    .cover__image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+}

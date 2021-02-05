@@ -1,0 +1,40 @@
+@import url(__link/nav__link.css);
+@import url(__links/nav__link.css);
+@import url(__link/nav__link.css);
+
+.header {
+    margin: 21px 1em 0 1em;
+    display: flex;
+    max-width: 1184px;
+    align-items: center;
+}
+
+@media (min-width : 425) {
+    .header {
+    margin: 18.2px 1em 0 1em;
+    display: flex;  
+    }
+}
+
+@media (min-width : 768px) {
+    .header { 
+        margin: 2.24em 1.5em 0 1.5em;
+    }
+}
+
+@media (min-width : 1024px) {
+    .header { 
+        margin: 2.25em 3em 0 3em;
+    }
+}
+
+@media (min-width : 1440px) {
+    .header { 
+        margin: 2.1em 8em 0 8em;
+    }
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto
+}

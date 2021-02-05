@@ -1,0 +1,20 @@
+.video__rect {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-between;
+    z-index: 2;
+    width: 100%;
+    padding-left: 8.33%;
+    padding-top: 5.55%;
+    padding-bottom: 5.55%;
+}
+
+@media (min-width: 1024px) { 
+.video__rect {
+    height: 100%;
+}
+
+}

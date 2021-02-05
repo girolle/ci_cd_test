@@ -1,0 +1,24 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": "module"
+    },
+    "env": {
+        "es6": true
+    },
+    "rules": {
+        "for-direction": "error",
+        "no-compare-neg-zero": "error",
+        "no-constant-condition": "warn",
+        "no-dupe-args": "error",
+        "no-dupe-keys": "error",
+        "no-duplicate-case": "error",
+        "no-extra-semi": "error",
+        "no-regex-spaces": "error",
+        "no-sparse-arrays": "error",
+        "no-template-curly-in-string": "error",
+        "no-negated-in-lhs": "off",
+        "camelcase": "error",
+        "prefer-const": "error"
+    }
+}

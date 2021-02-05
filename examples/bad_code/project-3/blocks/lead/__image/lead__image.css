@@ -1,0 +1,32 @@
+@import url(_wrap/lead__image_wrap.css);
+
+.lead__image {
+    margin: auto;
+       width: 382px;
+    height: 219px;  
+   object-fit: contain;
+    overflow: hidden;
+}
+
+@media (min-width : 500px) {
+.lead__image {
+    width: 100%;
+    height: auto;   
+}
+}
+
+@media (min-width : 1000px) {
+.lead__image {
+    width: 964px;
+    height: auto;   
+}
+}
+
+@media (min-width : 1200px) {
+.lead__image {
+    max-width: 984px;
+    max-height: 565px;  
+    width: 984px;
+    height: 565px; 
+}
+}

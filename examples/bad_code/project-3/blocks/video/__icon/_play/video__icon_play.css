@@ -1,0 +1,7 @@
+.video__icon_play {
+    max-width: 2.56rem;
+    max-height: 2.56rem;
+    color: white;
+    z-index: 2;
+    align-self: flex-start;
+}

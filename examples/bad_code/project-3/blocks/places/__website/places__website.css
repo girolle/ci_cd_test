@@ -1,0 +1,10 @@
+.places__website {
+    display:none;
+}
+
+@media (min-width : 768px) {
+.places__website {
+    display: block; 
+    width: 22rem;
+}
+}

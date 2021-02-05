@@ -1,0 +1,19 @@
+.lead__title {
+    margin: 3rem 1rem 0 1rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  @media (min-width : 768px) {
+  .lead__title {
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 93px;
+  
+  }
+  }

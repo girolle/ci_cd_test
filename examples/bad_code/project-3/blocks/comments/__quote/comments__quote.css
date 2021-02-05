@@ -1,0 +1,25 @@
+.comments__quote {
+    margin: 0 1rem 2.93rem 1rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+@media (min-width: 768px) { 
+.comments__quote {
+        margin: 1.5rem 12.06rem 2.8rem 12.06rem;
+}
+
+}
+@media (min-width: 1024px) { 
+.comments__quote {
+    margin: 1.64rem 0 0.915rem 0;
+    font-size: 14px;
+    line-height: 24px; 
+    text-align: left;   
+
+}
+
+}

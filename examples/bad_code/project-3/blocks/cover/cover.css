@@ -1,0 +1,17 @@
+@import url(__cover-bg/cover__cover-bg.css);
+@import url(__image/cover__image.css);
+@import url(__rect/cover__rect.css);
+@import url(__subtitle/cover__subtitle.css);
+@import url(__title/cover__title.css);
+
+
+
+.cover {
+   position: relative;
+   overflow: hidden;
+}
+
+.cover:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}

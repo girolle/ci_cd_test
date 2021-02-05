@@ -1,0 +1,22 @@
+{
+	"name": "project1test_local",
+	"version": "1.0.0",
+	"scripts": {
+		"test" : "cd test-lib && npm i && node run.js '../examples/1'"
+	},
+	"dependencies": {
+		"@babel/parser": "^7.12.10",
+		"@babel/traverse": "^7.12.10",
+		"eslint": "^7.13.0",
+		"html2bemjson": "^1.10.0",
+		"htmlhint": "^0.14.1",
+		"mongoose": "^5.11.1",
+		"parse5": "^6.0.0",
+		"stylelint": "^12.0.0"
+	},
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"diff": "^4.0.2",
+		"esprima": "^4.0.1"
+	}
+}

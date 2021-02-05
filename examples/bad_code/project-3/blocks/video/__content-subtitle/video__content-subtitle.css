@@ -1,0 +1,17 @@
+.video__content-subtitle {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    margin: 0 1rem 1.5rem 1rem;
+    color: #FFFFFF;
+}
+
+@media (min-width: 768px) { 
+    .video__content-subtitle {
+       font-size: 24px;
+        line-height: 35px;
+    }
+}

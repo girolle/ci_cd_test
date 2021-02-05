@@ -1,0 +1,30 @@
+.video__image {
+    opacity: 0.3;
+}
+
+@media (min-width: 375px) {
+.video__image {
+    width: 343px;
+    height: 200px;
+} 
+}
+@media (min-width: 768px) {
+.video__image {
+    width: 352px;
+    height: 200px;
+} 
+}
+
+@media (min-width: 1024px) {
+.video__image {
+    width: 456px;
+    height: 288px;
+} 
+}
+
+@media (min-width: 1280px) {
+.video__image {
+    width: 583px;
+    height: 323px;
+} 
+}

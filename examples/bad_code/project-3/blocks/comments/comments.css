@@ -1,0 +1,25 @@
+@import url(__title/comments__title.css);
+@import url(__subtitle/comments__subtitle.css);
+@import url(__container/comments__container.css);
+@import url(__image/comments__image.css);
+@import url(__author/comments__author.css);
+@import url(__quote/comments__quote.css);
+
+@media (min-width: 1280px) {
+
+    .comments {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 74rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .comments {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5.125rem 3rem 5.24rem 3rem;
+    }
+
+}
+

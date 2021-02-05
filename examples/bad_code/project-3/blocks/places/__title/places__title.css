@@ -1,0 +1,27 @@
+.places__title {
+    margin:0;
+    Margin: 0 1rem 2rem 1rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+@media (min-width : 768px) {
+.places__title {
+    font-size: 42px;
+    line-height: 46px;
+    width: 21.25rem;
+}
+}
+
+@media (min-width : 1024px) {
+.places__title {
+    font-size: 4.5rem;
+    line-height: 4rem;
+    width: 27.5rem;
+    margin: 0 0 2.5rem 2rem;
+}
+}

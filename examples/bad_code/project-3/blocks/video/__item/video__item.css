@@ -1,0 +1,11 @@
+.video__item {
+    position: relative;
+    
+}
+
+@media (min-width: 768px) {
+
+    .video__item:last-of-type {
+    margin-left: 1rem;
+}
+}

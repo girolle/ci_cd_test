@@ -1,0 +1,33 @@
+.comments__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 4.75rem 1rem 1.68rem 1rem; 
+}
+
+@media (min-width: 768px) {
+    .comments__title {
+        font-size: 42px;
+        line-height: 46px;
+        margin: 7.25rem 3.375rem 2rem 3.375rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .comments__title {
+        font-size: 72px;
+        line-height: 108.9%;
+        margin: 0 4.5rem 4.125rem 4.5rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .comments__title {
+       
+        margin: 0 12rem 3rem 12rem;
+    }
+}

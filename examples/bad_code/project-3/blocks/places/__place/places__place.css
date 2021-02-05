@@ -1,0 +1,27 @@
+.places__place {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width : 768px) {
+.places__place {
+    margin: 5rem 1rem 0 1rem;
+    }
+}
+
+@media (min-width : 1024px) {
+.places__place {
+    margin: 5rem 3rem 0 3rem;
+    }
+}
+@media (min-width : 1280px) {
+.places__place {
+    margin: 5rem 9.68rem 0 8.8rem;
+    }
+}
+
+@media (min-width : 1440px) {
+.places__place {
+    margin: 5rem 14.25rem 0 14.25rem;
+    }
+}

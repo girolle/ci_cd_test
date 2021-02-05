@@ -1,0 +1,32 @@
+@import url(__title/intro__title.css);
+@import url(__content-row/intro__content-row.css);
+@import url(__list/intro__list.css);
+
+.intro {
+    margin: 4rem 1rem 4.4rem 1rem ;
+}
+
+@media (min-width : 768px) {
+.intro {
+    margin: 5rem 1.5rem 5.8rem 1.5rem ;
+}
+}
+
+@media (min-width : 1024px) {
+.intro {
+    margin: 4.75rem 3rem 6.35rem 3rem ;
+}
+}
+
+@media (min-width : 1280px) {
+.intro {
+    margin: 5rem 9.25rem 6.35rem 9.25rem ;
+}
+}
+
+@media (min-width : 1440px) {
+.intro {
+    margin: 5rem 14.25rem 5.1rem 14.25rem; 
+
+}
+}

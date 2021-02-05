@@ -1,0 +1,24 @@
+.comments__author {
+    margin: 1.14rem 1rem 1.5rem 1rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media (min-width: 768px) { 
+    .comments__author {
+        margin: 0.8875rem 12.06rem 1.5rem 12.06rem;
+    }
+}
+
+@media (min-width: 1024px) { 
+    .comments__author {
+        margin: 0;
+        order: 1;
+        text-align: left;
+    }
+}

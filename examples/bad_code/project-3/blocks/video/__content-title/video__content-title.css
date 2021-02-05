@@ -1,0 +1,23 @@
+.video__content-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 3.9375rem 1rem 1.56rem 1rem;
+}
+
+@media (min-width: 768px) { 
+    .video__content-title {
+        font-size: 42px;
+        line-height: 107.64%;
+    }
+}
+@media (min-width: 1024px) { 
+    .video__content-title {
+        font-size: 72px;
+        line-height: 78px;
+    }
+}

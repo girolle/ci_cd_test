@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+exports.TokenName = void 0;
+exports.TokenName = {};
+exports.TokenName[1 /* BooleanLiteral */] = 'Boolean';
+exports.TokenName[2 /* EOF */] = '<end>';
+exports.TokenName[3 /* Identifier */] = 'Identifier';
+exports.TokenName[4 /* Keyword */] = 'Keyword';
+exports.TokenName[5 /* NullLiteral */] = 'Null';
+exports.TokenName[6 /* NumericLiteral */] = 'Numeric';
+exports.TokenName[7 /* Punctuator */] = 'Punctuator';
+exports.TokenName[8 /* StringLiteral */] = 'String';
+exports.TokenName[9 /* RegularExpression */] = 'RegularExpression';
+exports.TokenName[10 /* Template */] = 'Template';

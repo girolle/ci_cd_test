@@ -1,0 +1,19 @@
+.footer__copyright {
+    margin: 1rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+}
+
+@media (min-width: 768px) {
+    .footer__copyright {
+        align-self: flex-end;
+        width: 40%;
+        margin: 0 1.43rem 1.75rem 10rem;
+        text-align: right;
+        }
+}

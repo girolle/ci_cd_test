@@ -1,0 +1,33 @@
+.places__paragraph {
+    margin: 0; /* Reset all default margins */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 169.4%;
+    /* or 27px */
+    color: #FFFFFF;
+    margin: 0 1rem 2.3rem 1rem;
+}
+
+@media (min-width : 768px) {
+.places__paragraph {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    width: 22rem;
+    flex: 1 1 50%;
+}
+}
+
+@media (min-width : 1024px) {
+.places__paragraph {
+    width: 28.5rem;
+    margin: 0 0 2.93rem 2rem;
+}
+}
+@media (min-width : 1280px) {
+.places__paragraph {
+    width: 30.25rem;
+    margin: 0 0 1.56rem 2.5rem;
+}
+}   

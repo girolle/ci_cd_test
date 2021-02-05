@@ -1,0 +1,16 @@
+{
+    "reqTags": {
+        "index.html": [
+            "body"
+        ]
+    },
+    "redTags": [
+        "br",
+        "em",
+        "i",
+        "b"
+    ],
+    "styleOrder": {
+        "index.html": []
+    }
+}

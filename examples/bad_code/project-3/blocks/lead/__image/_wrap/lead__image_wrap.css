@@ -1,0 +1,16 @@
+.lead__image_wrap {
+    text-align: center;
+    overflow: hidden;
+}
+
+@media (min-width : 1280px) {
+.lead__image_wrap {
+    margin: 4.18rem 9.25rem 0 9.25rem; 
+}
+}
+
+@media (min-width : 1440px) {
+.lead__image_wrap {
+    margin: 4.18rem 14.25rem 0 14.25rem; 
+}
+}

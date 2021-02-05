@@ -1,0 +1,21 @@
+@import url(__link/footer__link.css);
+@import url(__ul/footer__ul.css);
+@import url(__copyright/footer__copyright.css);
+
+@media (min-width: 768px) {
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 6.375rem;
+        align-content: space-between;
+    }
+}
+
+@media (min-width: 1280px) {
+    .footer {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1184px;
+    }
+}

@@ -1,0 +1,7 @@
+.cover__cover-bg {
+    position: absolute;
+    background: #2A2C2F;
+    opacity: 0.3;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,11 @@
+@import url(_sub/intro__content-row_sub.css);
+@import url(_main-text/intro__content-row_main-text.css);
+
+.intro__content-row {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+    max-width: 683px;
+
+}
