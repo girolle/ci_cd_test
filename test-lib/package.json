@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"scripts": {
 		"test" : "cd test-lib && npm i && node run.js '../'"
-	}
+	},
 	"dependencies": {
 		"@babel/parser": "^7.12.10",
 		"@babel/traverse": "^7.12.10",
