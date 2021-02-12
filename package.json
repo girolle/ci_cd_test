@@ -1,5 +1,5 @@
 {
-	"name": "project1test_local",
+	"name": "project1test",
 	"version": "1.0.0",
 	"scripts": {
 		"test" : "cd test-lib && npm i && node run.js '../examples/1'"
